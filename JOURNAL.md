@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 10/30/2025 - introduction and planning  
+## 10/30/2025 9 AM - introduction and planning  
 
 I have a lot of spare components from my projects in Highway and I wanna build something for Blueprint but I have no time for larger bc school
 * this led me to thinking of many smaller projects that I can finish up when I have free time between classes (like now in ap stats), mainly comprising of stuff that I already have on hand
@@ -20,4 +20,21 @@ After some time, I came up with a light up ID badge holder
 I plan on having a heavy futuristic cyberpunk/futuristic vibe to the project, mainly drawing inspo from the Undercity PCB badges and some of my other projects ([wink wink](https://github.com/geg-tech/cheapsuit)).
 I also plan on using parts that I have on hand. As stated earlier, I already have a bunch of SK6812s for RGB, but I'm also scrapping some parts of my Sprig for the microcontroller ann buttons and a coin battery holder from Solder.
 * I read online that a Raspberry Pi Pico can be powered with 3V, as well as SK6812 LEDS (to an extent), so _hopefully_ this should work out  
+
+## 10/30/2025 10 AM - basic schematic  
+
+Right after my previous post I made the schematic
+
+The circuit is very simple honestly
+* The entire PCB is powered with a 3V coin battery, along with a Raspberry Pi Pico W (the one that came with my sprig) and a string of 10 SK6812s spaced around the id badge like this
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjczNCwicHVyIjoiYmxvYl9pZCJ9fQ==--a3a3c771644205a26eeb4ae13a8be850355dc051/image.png)
+
+* There are also two buttons, one programmed to shut off the LEDs and the other to switch modes 
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjczNSwicHVyIjoiYmxvYl9pZCJ9fQ==--63501d02cf1afb1659aa9ae5641a883a1f293e28/image.png)
+
+I also plan on testing this set up with a coin battery holder and led soldered to some wires at home
+* If it doesn't work, I'll maybe try to add a converter to step up the voltage to 5v
+  
 
